@@ -117,8 +117,8 @@ class _E05PageUiState extends State<E05PageUi> {
                   children: [
                     Expanded(
                       child: SizedBox(
-                        width: 60,
-                        height: 43,
+                        width: 30,
+                        height: 25,
                         child: TextField(
                           controller: otp1,
                           textAlign: TextAlign.center,
@@ -136,11 +136,11 @@ class _E05PageUiState extends State<E05PageUi> {
                         ),
                       ),
                     ),
-                    SizedBox(width: 30),
+                    SizedBox(width: 5),
                     Expanded(
                       child: SizedBox(
-                        width: 60,
-                        height: 43,
+                        width: 30,
+                        height: 30,
                         child: TextField(
                           controller: otp2,
                           textAlign: TextAlign.center,
@@ -161,8 +161,8 @@ class _E05PageUiState extends State<E05PageUi> {
                     SizedBox(width: 6),
                     Expanded(
                       child: SizedBox(
-                        width: 60,
-                        height: 43,
+                        width: 30,
+                        height: 30,
                         child: TextField(
                           controller: otp3,
                           textAlign: TextAlign.center,
@@ -183,8 +183,8 @@ class _E05PageUiState extends State<E05PageUi> {
                     SizedBox(width: 6),
                     Expanded(
                       child: SizedBox(
-                        width: 60,
-                        height: 43,
+                        width: 30,
+                        height: 30,
                         child: TextField(
                           controller: otp4,
                           textAlign: TextAlign.center,
@@ -228,9 +228,7 @@ class _E05PageUiState extends State<E05PageUi> {
                     ),
                   ),
                 ),
-                SizedBox(
-                  height: 20,
-                ),
+                SizedBox(height: 20,),
                 SizedBox(
                   width: double.infinity,
                   height: 43,
