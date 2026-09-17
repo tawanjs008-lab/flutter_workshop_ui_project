@@ -40,7 +40,7 @@ class _E06PageUiState extends State<E06PageUi> {
                       },
                       icon: Icon(
                         Icons.arrow_back_ios_new,
-                        size: 18,
+                        size: 19,
                         color: Colors.white,
                       ),
                     ),
