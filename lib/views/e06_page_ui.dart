@@ -74,7 +74,7 @@ class _E06PageUiState extends State<E06PageUi> {
                     decoration: InputDecoration(
                       hintText: 'Enter New password',
                       hintStyle: TextStyle(
-                        fontSize: 12,
+                        fontSize: 13,
                         color: Colors.grey,
                       ),
                       enabledBorder: OutlineInputBorder(
