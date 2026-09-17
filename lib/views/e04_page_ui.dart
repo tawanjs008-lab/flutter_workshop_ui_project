@@ -31,7 +31,7 @@ class _E04PageUiState extends State<E04PageUi> {
                     width: 40,
                     height: 40,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 240, 231, 231),
+                      color: Color(0xFFFFF1B8),
                       shape: BoxShape.circle,
                     ),
                     child: IconButton(

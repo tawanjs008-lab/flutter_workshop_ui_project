@@ -33,7 +33,7 @@ class _E02PageUiState extends State<E02PageUi> {
                     width: 40,
                     height: 40,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 224, 221, 221),
+                      color: Color(0xFFFFF1B8),
                       shape: BoxShape.circle,
                     ),
                     child: IconButton(
@@ -193,32 +193,35 @@ class _E02PageUiState extends State<E02PageUi> {
                   ),
                   SizedBox(height: 18),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       IconButton(
                         onPressed: () {},
                         icon: Image.asset(
                           'assets/images/img_g.png',
-                          width: 25,
-                          height: 25,
+                          width: 30,
+                          height: 30,
                         ),
                       ),
+                      SizedBox(height: 10),
                       IconButton(
                         onPressed: () {},
                         icon: Image.asset(
                           'assets/images/img_f.png',
-                          width: 25,
-                          height: 25,
+                          width: 30,
+                          height: 30,
                         ),
                       ),
+                      SizedBox(height: 10),
                       IconButton(
                         onPressed: () {},
                         icon: Image.asset(
                           'assets/images/img_a.png',
-                          width: 25,
-                          height: 25,
+                          width: 30,
+                          height: 30,
                         ),
                       ),
+                      SizedBox(height: 10),
                     ],
                   ),
                   SizedBox(height: 18),
