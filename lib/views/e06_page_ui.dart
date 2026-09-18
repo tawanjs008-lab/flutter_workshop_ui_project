@@ -143,14 +143,14 @@ class _E06PageUiState extends State<E06PageUi> {
                       child: Text(
                         'Submit',
                         style: TextStyle(
-                          fontSize: 17,
+                          fontSize: 16,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                         ),
                       ),
                     ),
                   ),
-                  SizedBox(height: 200),
+                  SizedBox(height: 201),
                 ],
               ),
             ),
