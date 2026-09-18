@@ -34,11 +34,11 @@ class _E05PageUiState extends State<E05PageUi> {
           child: Container(
             width: screenWidth - 20,
             height: double.infinity,
-            margin: const EdgeInsets.symmetric(
+            margin: EdgeInsets.symmetric(
               horizontal: 10,
               vertical: 10,
             ),
-            padding: const EdgeInsets.fromLTRB(
+            padding: EdgeInsets.fromLTRB(
               22,
               22,
               22,
@@ -184,7 +184,7 @@ class _E05PageUiState extends State<E05PageUi> {
                         decoration: InputDecoration(
                           counterText: '',
                           filled: true,
-                          fillColor: const Color(0xFFE8E8E8),
+                          fillColor: Color(0xFFE8E8E8),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
                             borderSide: BorderSide.none,
@@ -197,7 +197,7 @@ class _E05PageUiState extends State<E05PageUi> {
                 SizedBox(height: 12),
                 Center(
                   child: RichText(
-                    text: const TextSpan(
+                    text: TextSpan(
                       children: [
                         TextSpan(
                           text: 'You should recieve the OTP in ',

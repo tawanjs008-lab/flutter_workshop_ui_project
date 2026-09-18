@@ -53,7 +53,7 @@ class _E02PageUiState extends State<E02PageUi> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 28),
+              padding: EdgeInsets.symmetric(horizontal: 28),
               child: Column(
                 children: [
                   SizedBox(height: 8),
@@ -230,7 +230,7 @@ class _E02PageUiState extends State<E02PageUi> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const E03PageUi(),
+                          builder: (context) =>E03PageUi(),
                         ),
                       );
                     },

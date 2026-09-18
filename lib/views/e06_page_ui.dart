@@ -50,7 +50,7 @@ class _E06PageUiState extends State<E06PageUi> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 28),
+              padding: EdgeInsets.symmetric(horizontal: 28),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -79,7 +79,7 @@ class _E06PageUiState extends State<E06PageUi> {
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Color(0xFFFFC52A),
                           width: 2,
                         ),
@@ -92,7 +92,7 @@ class _E06PageUiState extends State<E06PageUi> {
                           )),
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: const BorderSide(
+                        borderSide: BorderSide(
                           color: Color(0xFFFFC52A),
                           width: 2,
                         ),

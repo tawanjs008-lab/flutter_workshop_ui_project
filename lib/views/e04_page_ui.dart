@@ -51,7 +51,7 @@ class _E04PageUiState extends State<E04PageUi> {
             ),
             SizedBox(height: 20),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 28),
+              padding:EdgeInsets.symmetric(horizontal: 28),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -122,7 +122,7 @@ class _E04PageUiState extends State<E04PageUi> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const E03PageUi(),
+                          builder: (context) => E03PageUi(),
                         ),
                       );
                     },

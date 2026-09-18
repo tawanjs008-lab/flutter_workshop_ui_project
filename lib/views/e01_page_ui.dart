@@ -55,7 +55,7 @@ class E01PageUi extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const E02PageUi()),
+                      MaterialPageRoute(builder: (context) => E02PageUi()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
@@ -64,10 +64,10 @@ class E01PageUi extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20.0),
                     ),
                     padding: EdgeInsets.zero,
-                    fixedSize: const Size(270, 55),
+                    fixedSize: Size(270, 55),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(
+                    padding:EdgeInsets.symmetric(
                       horizontal: 18.0, 
                     ),
                     

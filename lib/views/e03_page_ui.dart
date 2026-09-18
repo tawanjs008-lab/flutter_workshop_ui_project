@@ -25,7 +25,7 @@ class _E03PageUiState extends State<E03PageUi> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 28),
+              padding: EdgeInsets.symmetric(horizontal: 28),
               child: Column(
                 children: [
                   Text(
